@@ -1,5 +1,5 @@
 import { ChatInput } from "@/components/custom/chatinput";
-import { PreviewMessage, ThinkingMessage } from "../../components/custom/message";
+import { PreviewMessage } from "../../components/custom/message";
 import { useScrollToBottom } from '@/components/custom/use-scroll-to-bottom'; // Updated import
 import { useState, useRef, useEffect, useCallback } from "react";
 import { message } from "../../interfaces/interfaces"
