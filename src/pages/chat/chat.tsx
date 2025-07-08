@@ -8,7 +8,7 @@ import { Header } from "@/components/custom/header";
 import {v4 as uuidv4} from 'uuid';
 import { ThreeDot } from 'react-loading-indicators'; // Import the ThreeDot loader
 
-const socket = new WebSocket("ws://localhost:8090"); //change to your websocket endpoint
+const socket = new WebSocket("https://ai-tutor-app-508734373679.us-central1.run.app"); //change to your websocket endpoint
 
 export function Chat() {
   // Use the updated useScrollToBottom hook
